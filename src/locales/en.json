@@ -35,12 +35,22 @@
   },
   "experiences": {
     "title": "Work Experience",
-    "jobTitle": "Backend Developer",
-    "period": "10/2023 - 9/2024",
-    "company": "GooUp1.",
-    "description": "Contributed to the backend development of a SaaS application as a Django intern. Developed RESTful APIs using Django REST Framework, and participated in designing system architecture with PostgreSQL. Gained practical experience working in an Agile team using the Scrum methodology, including sprint planning and daily stand-ups."
+    "jobs": [
+      {
+        "jobTitle": "Backend Developer",
+        "period": "10/2023 - 9/2024",
+        "company": "GooUp1.",
+        "description": "Contributed to the backend development of a SaaS application as a Django intern. Developed RESTful APIs using Django REST Framework, and participated in designing system architecture with PostgreSQL."
+      },
+      {
+        "jobTitle": "Frontend Developer",
+        "period": "10/2024 - Present",
+        "company": "Tech Solutions",
+        "description": "Working on the frontend development of web applications using React and Redux. You can fill in the details here."
+      }
+    ]
   },
-    "contacts": {
+  "contacts": {
     "title": "Get In Touch",
     "contactInfoTitle": "Contact Information",
     "introText": "Feel free to reach out if you're looking for a developer, have a question, or just want to connect.",

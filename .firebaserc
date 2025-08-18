@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fir-deloy-website"
-  }
+    "default": "fir-deloy-website",
+    "cv-nghia.tv": "fir-deloy-website"
+  },
+  "targets": {},
+  "etags": {}
 }

@@ -1,30 +1,36 @@
 [
     {
         "id": 1,
-        "name": "Dự án 1",
+        "name": "Hope Horizon API",
         "image": "/images/projects/image1.png",
-        "description": "Mô tả dự án 1",
-        "description_vn": "Mô tả dự án 1 bằng tiếng Việt",
+        "description": "The Hope Horizon API project provides the backend for the Hope Horizon community support platform. It is built with Django and the REST framework, aiming to connect people in need with charitable organizations and individuals.",
+        "description_vn": "Dự án Hope Horizon API cung cấp backend cho nền tảng hỗ trợ cộng đồng Hope Horizon. Dự án được xây dựng với Django và REST framework, phục vụ mục tiêu kết nối những người cần giúp đỡ với các tổ chức và cá nhân thiện nguyện.",
         "link": "https://example.com/project1",
         "languages": [
             {
-                "name": "JavaScript"
+                "name": "Django"
             },
             {
-                "name": "React"
+                "name": "PostgreSQL"
             }
         ]
     },
     {
         "id": 2,
-        "name": "Dự án 2",
-        "image": "/images/projects/image2.jpg",
-        "description": "Mô tả dự án 2",
-        "description_vn": "Mô tả dự án 2 bằng tiếng Việt",
+        "name": "TechieShop",
+        "image": "/images/projects/image2.png",
+        "description": "TechieShop is a trusted retailer specializing in genuine electronic products such as smartphones, laptops, accessories, and smart devices. With a wide range of models, competitive prices, and dedicated customer service, we are committed to delivering a modern, convenient, and high-quality shopping experience for all customers.",
+        "description_vn": "TechieShop là địa chỉ uy tín chuyên cung cấp các sản phẩm điện tử chính hãng như điện thoại, laptop, phụ kiện và thiết bị thông minh. Với đa dạng mẫu mã, giá cả cạnh tranh và dịch vụ chăm sóc khách hàng tận tâm, chúng tôi cam kết mang đến trải nghiệm mua sắm hiện đại, tiện lợi và chất lượng cho mọi khách hàng.",
         "link": "https://example.com/project2",
         "languages": [
             {
                 "name": "Python"
+            },
+            {
+                "name": "PostgreSQL"
+            },
+            {
+                "name": "ReactJS"
             },
             {
                 "name": "Django"
@@ -33,16 +39,17 @@
     },
     {
         "id": 3,
-        "name": "Dự án 3",
+        "name": "Odoo ERP - Sale Checkin Map",
         "image": "/images/projects/image3.png",
-        "description_vn": "Mô tả dự án 3 bằng tiếng Việt",
+        "description": "Odoo ERP – Sale Checkin Map is an Odoo-based project featuring a map check-in function to support sales management, track staff locations, and optimize work efficiency.",
+        "description_vn": "Odoo ERP – Sale Checkin Map là dự án trên nền tảng Odoo với tính năng check-in bằng bản đồ, hỗ trợ quản lý hoạt động bán hàng, theo dõi vị trí nhân viên và tối ưu hiệu quả làm việc.",
         "link": "https://example.com/project3",
         "languages": [
             {
-                "name": "HTML"
+                "name": "Odoo"
             },
             {
-                "name": "CSS"
+                "name": "PostgreSQL"
             }
         ]
     }
