@@ -1,0 +1,91 @@
+{
+  "home": "Home",
+  "about": "About",
+  "experience": "Experience",
+  "projects": "Projects",
+  "contact": "Contact",
+  "language": "Language",
+  "english": "English",
+  "vietnamese": "Vietnamese",
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Tran Van Nghia",
+    "title": "Full Stack Developer",
+    "description": "I build exceptional digital experiences with modern technologies and clean code. Specialized in web applications, cloud solutions, cybersecurity, and with working knowledge of mobile development.",
+    "view_work": "View My Work",
+    "download_cv": "Download CV"
+  },
+  "abouts": {
+    "title": "About Me",
+    "whoAmI": "Who am I?",
+    "paragraph1": "I'm a final-year student at the Vietnam-Korea University of Information and Communication Technology, with a strong passion for software development. During my 6-month internship, I gained practical experience working on backend systems and also explored some frontend technologies.",
+    "paragraph2": "My strength lies in backend development, where I focus on building robust and maintainable server-side applications. While I have basic knowledge of frontend development, I’m most confident when working with APIs, databases, and the logic behind scalable web applications.",
+    "location": "Đa Nang",
+    "email": "nghiatran1527@gmail.com",
+    "phone": "0355988467",
+    "availability": "Available Now",
+    "mySkills": "My Skills",
+    "skills": {
+      "python": "Python/Django",
+      "react": "React.js",
+      "php": "PHP/Laravel",
+      "git": "Git",
+      "reactNative": "React Native"
+    }
+  },
+  "experiences": {
+    "title": "Work Experience",
+    "jobTitle": "Backend Developer",
+    "period": "10/2023 - 9/2024",
+    "company": "GooUp1.",
+    "description": "Contributed to the backend development of a SaaS application as a Django intern. Developed RESTful APIs using Django REST Framework, and participated in designing system architecture with PostgreSQL. Gained practical experience working in an Agile team using the Scrum methodology, including sprint planning and daily stand-ups."
+  },
+    "contacts": {
+    "title": "Get In Touch",
+    "contactInfoTitle": "Contact Information",
+    "introText": "Feel free to reach out if you're looking for a developer, have a question, or just want to connect.",
+    "location": "Location",
+    "locationText": "Đa Nang",
+    "email": "Email",
+    "emailAddress": "nghiatran1527@gmail.com",
+    "phone": "Phone",
+    "phoneNumber": "0355988467",
+    "facebook": "Facebook",
+    "facebookName": "Trần Nghĩa Công",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "validationError": "Please fill in all required fields.",
+      "successMessage": "Message sent successfully!",
+      "failMessage": "Failed to send message. Please try again.",
+      "errorMessage": "An error occurred. Please try again later."
+    }
+  },
+  "footer": {
+    "description": "Building digital solutions with passion.",
+    "social": {
+      "github": "GitHub",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "stackoverflow": "Stack Overflow"
+    },
+    "copyright": "© 2025 Tran Van Nghia - KaiO. All rights reserved."
+  },
+  "projects_title": "Featured Projects",
+  "view_project": "View Project",
+  "loading": "Loading projects...",
+  "no_projects": "No projects available.",
+  "project": {
+    "title": "Project Demo",
+    "features_title": "Project Features",
+    "technologies_title": "Technologies Used",
+    "links_title": "Project Links",
+    "github": "GitHub Repository",
+    "live_demo": "Live Demo",
+    "case_study": "Case Study"
+  }
+}

@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "name": "Dự án 1",
+        "image": "/images/projects/image1.png",
+        "description": "Mô tả dự án 1",
+        "description_vn": "Mô tả dự án 1 bằng tiếng Việt",
+        "link": "https://example.com/project1",
+        "languages": [
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "React"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Dự án 2",
+        "image": "/images/projects/image2.jpg",
+        "description": "Mô tả dự án 2",
+        "description_vn": "Mô tả dự án 2 bằng tiếng Việt",
+        "link": "https://example.com/project2",
+        "languages": [
+            {
+                "name": "Python"
+            },
+            {
+                "name": "Django"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Dự án 3",
+        "image": "/images/projects/image3.png",
+        "description_vn": "Mô tả dự án 3 bằng tiếng Việt",
+        "link": "https://example.com/project3",
+        "languages": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            }
+        ]
+    }
+]

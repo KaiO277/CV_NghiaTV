@@ -1,0 +1,91 @@
+{
+  "home": "Trang chủ",
+  "about": "Giới thiệu",
+  "experience": "Kinh nghiệm",
+  "projects": "Dự án",
+  "contact": "Liên hệ",
+  "language": "Ngôn ngữ",
+  "english": "Tiếng Anh",
+  "vietnamese": "Tiếng Việt",
+    "hero": {
+    "greeting": "Xin chào, Tôi là",
+    "name": "Trần Văn Nghĩa",
+    "title": "Lập Trình Viên Full Stack",
+    "description": "Tôi xây dựng trải nghiệm kỹ thuật số xuất sắc với công nghệ hiện đại và mã sạch. Chuyên về ứng dụng web, giải pháp đám mây, bảo mật mạng và có kiến ​​thức thực tế về phát triển di động.",
+    "view_work": "Xem Công Việc",
+    "download_cv": "Tải CV"
+    },
+  "abouts": {
+    "title": "Giới Thiệu",
+    "whoAmI": "Tôi là ai?",
+    "paragraph1": "Tôi là sinh viên năm cuối Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn, đam mê phát triển phần mềm. Trong 6 tháng thực tập, tôi đã có kinh nghiệm thực tế làm việc backend và tìm hiểu frontend.",
+    "paragraph2": "Điểm mạnh của tôi là phát triển backend, tập trung xây dựng ứng dụng server mạnh mẽ và dễ bảo trì. Tôi có kiến thức cơ bản về frontend, nhưng tự tin nhất khi làm việc với API, cơ sở dữ liệu và logic ứng dụng web mở rộng.",
+    "location": "Đà Nẵng",
+    "email": "nghiatran1527@gmail.com",
+    "phone": "0355988467",
+    "availability": "Sẵn sàng làm việc",
+    "mySkills": "Kỹ năng của tôi",
+    "skills": {
+      "python": "Python/Django",
+      "react": "React.js",
+      "php": "PHP/Laravel",
+      "git": "Git",
+      "reactNative": "React Native"
+    }
+  },
+  "experiences": {
+    "title": "Kinh nghiệm làm việc",
+    "jobTitle": "Lập trình viên Backend",
+    "period": "10/2023 - 9/2024",
+    "company": "GooUp1.",
+    "description": "Đóng góp phát triển backend ứng dụng SaaS dưới vai trò thực tập sinh Django. Phát triển RESTful API sử dụng Django REST Framework và tham gia thiết kế kiến trúc hệ thống với PostgreSQL. Tích lũy kinh nghiệm thực tế làm việc theo Agile với Scrum, gồm kế hoạch sprint và họp daily stand-up."
+  },
+    "contacts": {
+    "title": "Liên Hệ",
+    "contactInfoTitle": "Thông Tin Liên Lạc",
+    "introText": "Hãy liên hệ nếu bạn cần một lập trình viên, có câu hỏi hoặc chỉ muốn kết nối.",
+    "location": "Địa điểm",
+    "locationText": "Đà Nẵng",
+    "email": "Email",
+    "emailAddress": "nghiatran1527@gmail.com",
+    "phone": "Điện thoại",
+    "phoneNumber": "0355988467",
+    "facebook": "Facebook",
+    "facebookName": "Trần Nghĩa Công",
+    "form": {
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Email",
+      "subject": "Chủ đề",
+      "message": "Nội dung",
+      "submit": "Gửi Tin Nhắn",
+      "validationError": "Vui lòng điền đầy đủ các trường bắt buộc.",
+      "successMessage": "Gửi tin nhắn thành công!",
+      "failMessage": "Gửi tin nhắn thất bại. Vui lòng thử lại.",
+      "errorMessage": "Có lỗi xảy ra. Vui lòng thử lại sau."
+    }
+  },
+  "footer": {
+    "description": "Xây dựng giải pháp số với đam mê.",
+    "social": {
+      "github": "GitHub",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "stackoverflow": "Stack Overflow"
+    },
+    "copyright": "© 2025 Trần Văn Nghĩa - KaiO. All rights reserved."
+  },
+  "projects_title": "Dự án tiêu biểu",
+  "view_project": "Xem dự án",
+  "loading": "Đang tải dự án...",
+  "no_projects": "Không có dự án nào.",
+  "project": {
+    "title": "Dự án mẫu",
+    "features_title": "Tính năng dự án",
+    "technologies_title": "Công nghệ sử dụng",
+    "links_title": "Liên kết dự án",
+    "github": "Kho mã GitHub",
+    "live_demo": "Bản demo trực tiếp",
+    "case_study": "Báo cáo chi tiết"
+  }
+}
