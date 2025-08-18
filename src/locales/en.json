@@ -43,10 +43,10 @@
         "description": "Contributed to the backend development of a SaaS application as a Django intern. Developed RESTful APIs using Django REST Framework, and participated in designing system architecture with PostgreSQL."
       },
       {
-        "jobTitle": "Frontend Developer",
-        "period": "10/2024 - Present",
-        "company": "Tech Solutions",
-        "description": "Working on the frontend development of web applications using React and Redux. You can fill in the details here."
+        "jobTitle": "Odoo Developer",
+        "period": "5/2025 - 7/2025",
+        "company": "XinkGroup",
+        "description": "Contributed to developing and customizing Odoo modules, including adding, modifying, and hiding items to match business workflows. Supported project implementation on the Odoo ERP platform, ensuring effective integration and improved user experience."
       }
     ]
   },
