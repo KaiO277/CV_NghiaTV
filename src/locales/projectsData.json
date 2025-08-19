@@ -69,8 +69,8 @@
                 "name_type": "E-commerce Platform",
                 "date": "2023-02-01",
                 "description_long": "Developed an e-commerce platform with user authentication and product management.",
-                "link_be": "https://example.com/backend2",
-                "link_fe": "https://example.com/frontend2",
+                "link_be": "https://github.com/KaiO277/BE_Node_TechieShop",
+                "link_fe": "https://github.com/KaiO277/TechieShop_UI",
                 "link_youtube": "https://youtube.com/example2",
                 "features": [
                     {
@@ -111,8 +111,8 @@
                 "name_type": "Sales Management",
                 "date": "2023-03-01",
                 "description_long": "Implemented a check-in feature for sales staff using Odoo.",
-                "link_be": "https://example.com/backend3",
-                "link_fe": "https://example.com/frontend3",
+                "link_be": "https://github.com/KaiO277/TTTN_project",
+                "link_fe": "",
                 "link_youtube": "https://youtube.com/example3",
                 "features": [
                     {
