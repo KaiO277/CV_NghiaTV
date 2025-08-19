@@ -18,9 +18,10 @@
             {
                 "id": 1,
                 "name_type": "API Development",
-                "date": "2023-01-01",
+                "date": "Oct 23, 2024",
                 "description_long": "Developed RESTful APIs for community support.",
-                "link_be": "https://example.com/backend",
+                "description_long_vn": "Mô tả tiếng việt",
+                "link_be": "https://github.com/KaiO277/Hope_Horizon_api",
                 "link_fe": "https://example.com/frontend",
                 "link_youtube": "/images/projects/image1.png",
                 "features": [
@@ -37,7 +38,7 @@
                         "name": "Data Analytics"
                     }
                 ],
-                "date_vn": "01/01/2023"
+                "date_vn": "23/10/2024"
             }
         ]
     },
