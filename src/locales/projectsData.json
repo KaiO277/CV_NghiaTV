@@ -13,14 +13,40 @@
             {
                 "name": "PostgreSQL"
             }
+        ],
+        "project_details": [
+            {
+                "id": 1,
+                "name_type": "API Development",
+                "date": "2023-01-01",
+                "description_long": "Developed RESTful APIs for community support.",
+                "link_be": "https://example.com/backend",
+                "link_fe": "https://example.com/frontend",
+                "link_youtube": "/images/projects/image1.png",
+                "features": [
+                    {
+                        "id": 1,
+                        "name": "JWT Authentication"
+                    },
+                    {
+                        "id": 2,
+                        "name": "User Management"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Data Analytics"
+                    }
+                ],
+                "date_vn": "01/01/2023"
+            }
         ]
     },
     {
         "id": 2,
         "name": "TechieShop",
         "image": "/images/projects/image2.png",
-        "description": "TechieShop is a trusted retailer specializing in genuine electronic products such as smartphones, laptops, accessories, and smart devices. With a wide range of models, competitive prices, and dedicated customer service, we are committed to delivering a modern, convenient, and high-quality shopping experience for all customers.",
-        "description_vn": "TechieShop là địa chỉ uy tín chuyên cung cấp các sản phẩm điện tử chính hãng như điện thoại, laptop, phụ kiện và thiết bị thông minh. Với đa dạng mẫu mã, giá cả cạnh tranh và dịch vụ chăm sóc khách hàng tận tâm, chúng tôi cam kết mang đến trải nghiệm mua sắm hiện đại, tiện lợi và chất lượng cho mọi khách hàng.",
+        "description": "TechieShop is a trusted retailer specializing in genuine electronic products such as smartphones, laptops, accessories, and smart devices.",
+        "description_vn": "TechieShop là địa chỉ uy tín chuyên cung cấp các sản phẩm điện tử chính hãng như điện thoại, laptop, phụ kiện và thiết bị thông minh.",
         "link": "https://example.com/project2",
         "languages": [
             {
@@ -35,14 +61,40 @@
             {
                 "name": "Django"
             }
+        ],
+        "project_details": [
+            {
+                "id": 2,
+                "name_type": "E-commerce Platform",
+                "date": "2023-02-01",
+                "description_long": "Developed an e-commerce platform with user authentication and product management.",
+                "link_be": "https://example.com/backend2",
+                "link_fe": "https://example.com/frontend2",
+                "link_youtube": "https://youtube.com/example2",
+                "features": [
+                    {
+                        "id": 1,
+                        "name": "JWT Authentication"
+                    },
+                    {
+                        "id": 2,
+                        "name": "User Management"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Data Analytics"
+                    }
+                ],
+                "date_vn": "01/02/2023"
+            }
         ]
     },
     {
         "id": 3,
         "name": "Odoo ERP - Sale Checkin Map",
         "image": "/images/projects/image3.png",
-        "description": "Odoo ERP – Sale Checkin Map is an Odoo-based project featuring a map check-in function to support sales management, track staff locations, and optimize work efficiency.",
-        "description_vn": "Odoo ERP – Sale Checkin Map là dự án trên nền tảng Odoo với tính năng check-in bằng bản đồ, hỗ trợ quản lý hoạt động bán hàng, theo dõi vị trí nhân viên và tối ưu hiệu quả làm việc.",
+        "description": "Odoo ERP – Sale Checkin Map is an Odoo-based project featuring a map check-in function to support sales management.",
+        "description_vn": "Odoo ERP – Sale Checkin Map là dự án trên nền tảng Odoo với tính năng check-in bằng bản đồ.",
         "link": "https://example.com/project3",
         "languages": [
             {
@@ -50,6 +102,32 @@
             },
             {
                 "name": "PostgreSQL"
+            }
+        ],
+        "project_details": [
+            {
+                "id": 3,
+                "name_type": "Sales Management",
+                "date": "2023-03-01",
+                "description_long": "Implemented a check-in feature for sales staff using Odoo.",
+                "link_be": "https://example.com/backend3",
+                "link_fe": "https://example.com/frontend3",
+                "link_youtube": "https://youtube.com/example3",
+                "features": [
+                    {
+                        "id": 1,
+                        "name": "JWT Authentication"
+                    },
+                    {
+                        "id": 2,
+                        "name": "User Management"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Data Analytics"
+                    }
+                ],
+                "date_vn": "01/03/2023"
             }
         ]
     }

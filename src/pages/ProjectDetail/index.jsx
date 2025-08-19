@@ -2,27 +2,21 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ContentProject from '../ContentProject';
 import ProjectLinks from '../ProjectLinks';
-import ProjectStats from '../ProjectStats';
+import projectsData from '../../locales/projectsData.json'; // Nhập dữ liệu từ file JSON
 
 const ProjectDetail = () => {
-    const { id } = useParams(); // 👈 Lấy ID từ URL
+    const { id } = useParams(); // Lấy ID từ URL
     const [projectData, setProjectData] = useState(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch(`https://api-cv-tranvannghia.up.railway.app/api/get_all_with_ids/${id}/`)
-            .then(res => res.json())
-            .then(data => {
-                setProjectData(data);
-                setLoading(false);
-            })
-            .catch(err => {
-                console.error('Fetch error:', err);
-                setLoading(false);
-            });
+        // Tìm dự án dựa trên ID
+        const project = projectsData.find(project => project.id === parseInt(id));
+        if (project) {
+            setProjectData(project);
+        }
+        setLoading(false);
     }, [id]);
-    console.log('Project data:', projectData);
-    
 
     if (loading) return <div>Loading...</div>;
     if (!projectData) return <div>Không có dữ liệu</div>;
