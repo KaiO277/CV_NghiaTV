@@ -13,9 +13,19 @@ const HeroSection = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
+    // Preload images
+    const preloadImages = () => {
+      images.forEach((image) => {
+        const img = new Image();
+        img.src = image;
+      });
+    };
+
+    preloadImages(); // Gọi hàm preload
+
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000);
+    }, 3000); // Thay đổi ảnh sau mỗi 3 giây
 
     return () => clearInterval(interval);
   }, []);
