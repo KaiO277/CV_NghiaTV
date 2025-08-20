@@ -15,9 +15,9 @@ const HeroSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Thay đổi ảnh sau mỗi 3 giây
+    }, 4000);
 
-    return () => clearInterval(interval); // Dọn dẹp interval khi component unmount
+    return () => clearInterval(interval);
   }, []);
 
   return (
