@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const HeroSection = () => {
   const { t } = useTranslation();
+  const images = [
+    "/avatar1.jpg",
+    "/1.png",
+    "/logo.png"
+  ];
+
+  // State để lưu chỉ số ảnh hiện tại
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000); // Thay đổi ảnh sau mỗi 3 giây
+
+    return () => clearInterval(interval); // Dọn dẹp interval khi component unmount
+  }, []);
 
   return (
     <div id="home" className="bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
@@ -36,7 +52,7 @@ const HeroSection = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-r from-primary to-secondary p-1">
                 <img
                   className="w-full h-full rounded-full object-cover border-4 border-white"
-                  src="/avatar1.jpg"
+                  src={images[currentImageIndex]} // Sử dụng ảnh hiện tại
                   alt={t('hero.name')}
                   onError={(e) => { e.target.src = '/path-to-default-image.jpg'; }}
                 />
