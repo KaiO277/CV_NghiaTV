@@ -1,15 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import projectsData from '../locales/projectsData.json';
+import { useParams } from 'react-router-dom';
 
 const ProjectLinks = () => {
     const { i18n, t } = useTranslation();
+    const [p, setP] = useState([]);
+    const { id } = useParams();
+
+    const foundProject = projectsData.find((p) => p.id === parseInt(id));
+
+    useEffect(() => {
+        // Set the projects data from the imported JSON
+        setP(projectsData);
+    }, []);
+
+    console.log("foundProject: ", foundProject);
+
 
     return (
         <>
             <div className="bg-white rounded-xl shadow-sm p-6" data-id="t4656jr6" data-line="84-100">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4" data-id="qrj8a01r" data-line="85-85">{t('project.links_title')}</h3>
                 <div className="space-y-3" data-id="azoa7uwh" data-line="86-99">
-                    <a href="#" className="flex items-center text-blue-600 hover:text-blue-800" data-id="izh0jly0" data-line="87-90">
+                    <a href={foundProject.project_details[0].link_be} target="_blank" className="flex items-center text-blue-600 hover:text-blue-800" data-id="izh0jly0" data-line="87-90">
                         <i className="fab fa-github mr-2" data-id="0uw5bhh9" data-line="88-88"></i>
                         <span data-id="8suu3vtm" data-line="89-89">{t('project.github')}</span>
                     </a>
