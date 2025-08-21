@@ -28,8 +28,17 @@ const ContactSection = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        // Email validation regex
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
         if (!formData.firstName || !formData.lastName || !formData.email || !formData.subject || !formData.message) {
             toast.error(t('contacts.form.validationError'));
+            return;
+        }
+
+        // Validate email format
+        if (!emailRegex.test(formData.email)) {
+            toast.error(t('contacts.form.invalidEmail')); // Add a translation key for this message
             return;
         }
 
@@ -47,8 +56,8 @@ const ContactSection = () => {
                 lastName: formData.lastName,
                 subject: formData.subject,
                 message: formData.message,
-                email: formData.email, // Thêm địa chỉ email
-                time: new Date().toLocaleString() // Nếu bạn cần thêm thời gian
+                email: formData.email,
+                time: new Date().toLocaleString()
             });
 
             if (response.status === 200) {
