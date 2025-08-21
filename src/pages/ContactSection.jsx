@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useTranslation } from 'react-i18next';
+import emailjs from 'emailjs-com';
+
+// Khởi tạo EmailJS với API Key
+emailjs.init('gJYDIhIiU4D7gK5ve'); // Thay thế bằng API Key của bạn
 
 const ContactSection = () => {
     const { t } = useTranslation();
-
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -31,8 +33,24 @@ const ContactSection = () => {
             return;
         }
 
+        const emailContent = `
+            A message by ${formData.firstName} ${formData.lastName} has been received. Kindly respond at your earliest convenience.
+            
+            Subject: ${formData.subject}
+            Message: ${formData.message}
+            Time: ${new Date().toLocaleString()}
+        `;
+
         try {
-            const response = await axios.post('https://api-cv-tranvannghia.up.railway.app/api/contact/', formData);
+            const response = await emailjs.send('service_wuv1e08', 'template_r4gyjda', {
+                firstName: formData.firstName,
+                lastName: formData.lastName,
+                subject: formData.subject,
+                message: formData.message,
+                email: formData.email, // Thêm địa chỉ email
+                time: new Date().toLocaleString() // Nếu bạn cần thêm thời gian
+            });
+
             if (response.status === 200) {
                 toast.success(t('contacts.form.successMessage'));
                 setFormData({
@@ -98,10 +116,10 @@ const ContactSection = () => {
                                     <div className="flex-shrink-0 h-10 w-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center text-primary">
                                         <i className="fab fa-facebook-f"></i>
                                     </div>
-                                    <a 
-                                        href="https://www.facebook.com/imKaiO7/" 
-                                        target="_blank" 
-                                        rel="noopener noreferrer" 
+                                    <a
+                                        href="https://www.facebook.com/imKaiO7/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         className="hover:underline text-primary"
                                     >
                                         <div className="ml-4">
