@@ -37,9 +37,9 @@ const ContentProject = ({ data }) => {
                                 <i className="far fa-calendar-alt mr-1" data-id="5oeg9rah" data-line="36-36"></i> {date}
                             </span>
                         </div>
-                        <p className="text-gray-700 mb-6 leading-relaxed" data-id="v78lct2e" data-line="38-40">
-                            {description}
-                        </p>
+                        <p className="text-gray-700 mb-6 leading-relaxed" data-id="v78lct2e" data-line="38-40"
+                            dangerouslySetInnerHTML={{ __html: description }} // Thêm dòng này
+                        />
                         <h2 className="text-xl font-semibold text-gray-800 mb-3" data-id="p30ktj7h" data-line="41-41">{t('project.features_title')}</h2>
                         <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-8" data-id="scabwu5a" data-line="42-67">
                             {data.project_details?.[0]?.features?.map((feature) => (
